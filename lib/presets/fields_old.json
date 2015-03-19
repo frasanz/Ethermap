@@ -1,32 +1,15 @@
 {
-   "wikipedia": {
-        "key": "wikipedia",
-        "type": "wikipedia",
-        "icon": "wikipedia",
-        "universal": true,
-        "label": "Wikipedia"
-    },
-   "email": {
-        "key": "email",
-        "type": "email",
-        "icon": "email",
-        "universal": true,
-        "label": "Email"
-    },
-
-
-
-      "access": {
-          "keys": [
-              "access",
-              "foot",
-              "motor_vehicle",
-              "bicycle",
-              "horse"
-          ],
-          "type": "access",
-          "label": "Access",
-          "placeholder": "Unknown",
+    "access": {
+        "keys": [
+            "access",
+            "foot",
+            "motor_vehicle",
+            "bicycle",
+            "horse"
+        ],
+        "type": "access",
+        "label": "Access",
+        "placeholder": "Unknown",
         "strings": {
             "types": {
                 "access": "General",
