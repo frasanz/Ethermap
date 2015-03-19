@@ -1,8 +1,13 @@
 {
     "actors": {
         "fields": [
-            "wikipedia",
-            "email"
+            "name",
+            "surname",
+            "email",
+            "twitter",
+            "url",
+            "description",
+            "challenges"
         ],
         "geometry": [
             "point"
@@ -21,7 +26,14 @@
             "citizen"
         ],
        "fields": [
-            "wikipedia"
+            "name",
+            "surname",
+            "email",
+            "twitter",
+            "url",
+            "description",
+            "challenges"
+
         ],
         "tags": {
             "actors": "citizen"
@@ -37,8 +49,13 @@
             "scientist"
         ],
        "fields": [
-            "wikipedia",
-            "email"
+            "name",
+            "surname",
+            "email",
+            "twitter",
+            "url",
+            "description",
+            "challenges"
         ],
 
         "tags": {
@@ -55,10 +72,14 @@
             "artist"
         ],
        "fields": [
-            "wikipedia",
-            "email"
-        ],
-
+            "name",
+            "surname",
+            "email",
+            "twitter",
+            "url",
+            "description",
+            "challenges"
+            ],
         "tags": {
             "actors": "artist"
         },
@@ -88,8 +109,12 @@
               "university"
           ],
          "fields": [
-              "wikipedia",
-              "email"
+              "name",
+              "email",
+              "twitter",
+              "url",
+              "description",
+              "challenges"
           ],
 
           "tags": {
@@ -106,8 +131,12 @@
                 "hacklab"
             ],
            "fields": [
-                "wikipedia",
-                "email"
+              "name",
+              "email",
+              "twitter",
+              "url",
+              "description",
+              "challenges"
             ],
 
             "tags": {
@@ -124,8 +153,12 @@
                     "school"
                 ],
                "fields": [
-                    "wikipedia",
-                    "email"
+                    "name",
+                    "email",
+                    "twitter",
+                    "url",
+                    "description",
+                    "challenges"
                 ],
 
                 "tags": {

@@ -78,7 +78,7 @@ angular.module('CollaborativeMap')
           //expose map for debugging purposes
           //var map = window._map = L.mapbox.map('map', 'dnns.h8dkb1bh');
           var map = window._map = L.mapbox.map('map')
-            .setView([20.95577098349905, 0.635455131530762],3 );
+            .setView([50.95577098349905, 15.635455131530762],5 );
 
 
           var mapLink = '<a href="http://www.esri.com/">Esri</a>';
