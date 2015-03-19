@@ -78,7 +78,7 @@ angular.module('CollaborativeMap')
           //expose map for debugging purposes
           //var map = window._map = L.mapbox.map('map', 'dnns.h8dkb1bh');
           var map = window._map = L.mapbox.map('map')
-            .setView([51.95577098349905, 7.635455131530762], 14);
+            .setView([20.95577098349905, 0.635455131530762],3 );
 
 
           var mapLink = '<a href="http://www.esri.com/">Esri</a>';
@@ -91,6 +91,7 @@ angular.module('CollaborativeMap')
 
           //var osm = L.tileLayer('http://{s}.tiles.mapbox.com/v3/dnns.tm2-basemap/{z}/{x}/{y}.png').addTo(map);
           var osm = L.mapbox.tileLayer('dnns.tm2-basemap').addTo(map);
+
 
           L.control.layers({
             'Aerial': aerial,
