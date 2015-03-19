@@ -477,6 +477,7 @@ angular.module('CollaborativeMap')
 
               //Get the fields of the preset
               members = $scope.presets[$scope.selectedPreset].fields || [];
+              console.log(members);
               members.forEach(function(member) {
                 var newKey = fields[member].label;
                 //Only append if not already existing
