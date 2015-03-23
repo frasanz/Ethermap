@@ -77,6 +77,13 @@
         "universal": "true",
         "label": "End date"
      },
+    "type": {
+        "key": "type",
+        "type": "type",
+        "icon": "type",
+        "universal": "true",
+        "label": "Type"
+     },
     "access": {
       "keys": [
         "access",

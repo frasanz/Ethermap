@@ -1,13 +1,13 @@
 {
-  "category-actors": {
+  "category-actor": {
     "geometry": "point",
-    "name": "Actors",
-    "icon": "category-actors",
+    "name": "Actor",
+    "icon": "category-actor",
     "members": [
-      "actors/citizen",
-      "actors/scientist",
-      "actors/artist",
-      "actors"
+      "actor/citizen",
+      "actor/scientist",
+      "actor/artist",
+      "actor/other"
     ],
     "style": {
       "stroke": "#F00",
@@ -23,7 +23,7 @@
       "organization/university",
       "organization/hacklab",
       "organization/school",
-      "organization"
+      "organization/other"
     ],
     "style": {
       "stroke": "#F00",

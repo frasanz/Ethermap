@@ -1,5 +1,5 @@
 {
-    "actors": {
+    "actor": {
         "fields": [
             "name",
             "surname",
@@ -15,9 +15,9 @@
         "tags": {
             "amenity": "*"
         },
-        "name": "Actors"
+        "name": "Actor"
     },
-    "actors/citizen": {
+    "actor/citizen": {
         "name": "Citizen",
         "geometry": [
             "point"
@@ -36,11 +36,11 @@
 
         ],
         "tags": {
-            "actors": "citizen"
+            "actor": "citizen"
         },
         "icon": "citizen"
     },
-    "actors/scientist": {
+    "actor/scientist": {
         "name": "Scientist",
         "geometry": [
             "point"
@@ -59,11 +59,11 @@
         ],
 
         "tags": {
-            "actors": "scientist"
+            "actor": "scientist"
         },
           "icon": "citizen"
     },
-    "actors/artist": {
+    "actor/artist": {
         "name": "Artist",
         "geometry": [
             "point"
@@ -81,15 +81,35 @@
             "challenges"
             ],
         "tags": {
-            "actors": "artist"
+            "actor": "artist"
         },
           "icon": "citizen"
     },
-
+    "actor/other": {
+        "name": "Other",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "otheractor"
+        ],
+       "fields": [
+            "type",
+            "name",
+            "surname",
+            "email",
+            "twitter",
+            "url",
+            "description",
+            "challenges"
+            ],
+        "tags": {
+            "actor": "otheractor"
+        },
+          "icon": "citizen"
+    },
     "organization": {
         "fields": [
-            "wikipedia",
-            "email"
         ],
         "geometry": [
             "point"
