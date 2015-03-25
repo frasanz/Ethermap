@@ -27,13 +27,11 @@
         ],
        "fields": [
             "name",
-            "surname",
             "email",
             "twitter",
             "url",
             "description",
             "challenges"
-
         ],
         "tags": {
             "actor": "citizen"
@@ -50,7 +48,6 @@
         ],
        "fields": [
             "name",
-            "surname",
             "email",
             "twitter",
             "url",
@@ -73,7 +70,6 @@
         ],
        "fields": [
             "name",
-            "surname",
             "email",
             "twitter",
             "url",
@@ -208,8 +204,16 @@
                       "conference"
                   ],
                  "fields": [
-                      "wikipedia",
-                      "email"
+                      "name",
+                      "organizator",
+                      "email",
+                      "url",
+                      "twitter",
+                      "description",
+                      "challenges",
+                      "startdate",
+                      "enddate",
+                      "challenges"
                   ],
                   "tags": {
                       "event": "conference"
@@ -225,8 +229,17 @@
                       "other"
                   ],
                  "fields": [
-                      "wikipedia",
-                      "email"
+                      "name",
+                      "type",
+                      "organizator",
+                      "email",
+                      "url",
+                      "twitter",
+                      "description",
+                      "challenges",
+                      "startdate",
+                      "enddate",
+                      "challenges"
                   ],
                   "tags": {
                       "event": "otherevent"
@@ -242,8 +255,16 @@
                       "other"
                   ],
                  "fields": [
-                      "wikipedia",
-                      "email"
+                      "name",
+                      "organizator",
+                      "email",
+                      "url",
+                      "twitter",
+                      "description",
+                      "challenges",
+                      "startdate",
+                      "enddate",
+                      "challenges"
                   ],
                   "tags": {
                       "project": "H2020"
@@ -259,8 +280,16 @@
                       "otherproject"
                   ],
                  "fields": [
-                      "wikipedia",
-                      "email"
+                      "name",
+                      "organizator",
+                      "email",
+                      "url",
+                      "twitter",
+                      "description",
+                      "challenges",
+                      "startdate",
+                      "enddate",
+                      "challenges"
                   ],
                   "tags": {
                       "project": "otherproject"
@@ -276,8 +305,15 @@
                       "otherprogram"
                   ],
                  "fields": [
-                      "wikipedia",
-                      "email"
+                      "name",
+                      "email",
+                      "url",
+                      "twitter",
+                      "description",
+                      "challenges",
+                      "startdate",
+                      "enddate",
+                      "challenges"
                   ],
                   "tags": {
                       "project": "otherprogram"

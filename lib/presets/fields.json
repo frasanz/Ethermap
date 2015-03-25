@@ -84,6 +84,14 @@
         "universal": "true",
         "label": "Type"
      },
+    "organizator": {
+        "key": "organizator",
+        "type": "organizator",
+        "icon": "organizator",
+        "universal": "true",
+        "label": "Organizator"
+     },
+
     "access": {
       "keys": [
         "access",
