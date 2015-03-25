@@ -134,7 +134,7 @@
           ],
 
           "tags": {
-              "actors": "university"
+              "organization": "university"
           },
             "icon": "university"
       },
@@ -156,7 +156,7 @@
             ],
 
             "tags": {
-                "actors": "hacklab"
+                "organization": "hacklab"
             },
               "icon": "hacklab"
         },
@@ -178,10 +178,34 @@
                 ],
 
                 "tags": {
-                    "actors": "school"
+                    "organization": "school"
                 },
                   "icon": "school"
         },
+        "organization/other": {
+                "name": "Other",
+                "geometry": [
+                    "point"
+                ],
+                "terms": [
+                    "organizationother"
+                ],
+               "fields": [
+                    "name",
+                    "type",
+                    "email",
+                    "twitter",
+                    "url",
+                    "description",
+                    "challenges"
+                ],
+
+                "tags": {
+                    "organization": "organizationother"
+                },
+                  "icon": "organizationother"
+        },
+
         "event": {
             "fields": [
                 "wikipedia",
@@ -316,7 +340,7 @@
                       "challenges"
                   ],
                   "tags": {
-                      "project": "otherprogram"
+                      "program": "otherprogram"
                   },
                     "icon": "program"
           }
